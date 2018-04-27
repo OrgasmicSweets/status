@@ -3,7 +3,7 @@
 //to host this site in the same domain as your API (and set `document.domain` correspondingly)
 var apis = {
     github : {
-        title: 'Github Public API (not our own but we couldnt live without it)',
+        title: 'Issue Tracker (not our own but we couldnt live without it)',
         url: 'https://api.github.com/users' //replace this with your own API endpoints
     },
     heroku : {
@@ -20,9 +20,9 @@ var apis = {
 var githubProject = 'bisscomm/status';
 
 //Github URLs
-var issuesApiUrl = 'https://api.github.com/repos/'+githubProject+'/issues?limit=100&sort=created&direction=desc&state=all'
-var issuesHtmlUrl = 'https://github.com/'+githubProject+'/issues?q=';
-var newIssueUrl = 'https://github.com/'+githubProject+'/issues/new';
+var issuesApiUrl = 'https://api.github.com/repos/stracker/issues?limit=100&sort=created&direction=desc&state=all'
+var issuesHtmlUrl = 'https://github.com/'ostracker/issues?q=';
+var newIssueUrl = 'https://github.com/'ostracker'/issues/new';
 
 //just a convenient shortcut
 var e = React.createElement
